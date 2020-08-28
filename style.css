@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind+Siliguri:wght@300&family=Noto+Serif:wght@700&display=swap');
+
 body {
+    background-image: url(imagens/pexels-filippo-peisino-2678301.jpg);
+    background-position: center left;
+    background-size: cover;
+    color: #1A1513;
 }
 
 main#container {
+    background-color: #bc9c90b9;
+    border-radius: 50px;
+    box-shadow: -10px -10px 10px 0 #8b726888;
+    transform: perspective(100px) rotateZ(-10deg);
+    position: relative;
+    left: 15%;
 }
 
 h1.titulo {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 0 #D4B5A8;
 }
 
 p.frase {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
 p.autor {
+    margin-right: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
 }
